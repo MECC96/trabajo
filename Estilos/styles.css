@@ -20,32 +20,32 @@ button {
   background-color: #000000;
   border-radius: 1em;
   outline: none;
-  box-shadow: 0 0 .5em .1em #d7cdb3, 0 0 1em .5em #d7cdb3, inset 0 0 .5em .1em #d7cdb3;
+  box-shadow:0 0 5px #d7cdb3, 0 0 15px #d7cdb3, 0 0 30px #d7cdb3, 0 0 50px #d7cdb3;
   text-shadow: 0 0 .5em #d7cdb3;
   position: relative;
   transition: all 0.3s;
+  cursor: pointer;
 }
 
-button::after {
-  pointer-events: painted;
+/* button::after {
   content: "";
   position: absolute;
   top: 12%;
   left: -10%;
   height: 100%;
   width: 100%;
-}
+} */
 
 button:hover {
   color: #FFFFFF;
   border: .25em solid #FFFFFF;
   background-color: #000000;
-  box-shadow: 0 0 .6em .15em #FFFFFF, 0 0 1.5em .75em #FFFFFF, inset 0 0 .75em .25em #FFFFFF;
+  box-shadow: 0 0 5px #FFFFFF, 0 0 15px #FFFFFF, 0 0 30px #FFFFFF, 0 0 50px #FFFFFF;
   text-shadow: 0 0 .5em #FFFFFF;
 }
 
 button:active {
-  box-shadow: 0 0 0.6em .25em #FFFFFF, 0 0 2.5em 2em #FFFFFF, inset 0 0 .5em .25em FFFFFF;
+  box-shadow: 0 0 0.8em .5em #FFFFFF, 0 0 2.5em 2em #FFFFFF, inset 0 0 1em .25em FFFFFF;
 }
 
 /*Aca empieza el menu nav*/
