@@ -20,7 +20,7 @@ button {
   background-color: #000000;
   border-radius: 1em;
   outline: none;
-  box-shadow: 0 0 1em .25em #d7cdb3, 0 0 2em 1em #d7cdb3, inset 0 0 .75em .25em #d7cdb3;
+  box-shadow: 0 0 .5em .1em #d7cdb3, 0 0 1em .5em #d7cdb3, inset 0 0 .5em .1em #d7cdb3;
   text-shadow: 0 0 .5em #d7cdb3;
   position: relative;
   transition: all 0.3s;
