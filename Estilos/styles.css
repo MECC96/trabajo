@@ -40,7 +40,7 @@ button:hover {
   color: #FFFFFF;
   border: .25em solid #FFFFFF;
   background-color: #000000;
-  box-shadow: 0 0 1em .25em #FFFFFF, 0 0 2em 1em #FFFFFF, inset 0 0 .75em .25em #FFFFFF;
+  box-shadow: 0 0 .6em .15em #FFFFFF, 0 0 1.5em .75em #FFFFFF, inset 0 0 .75em .25em #FFFFFF;
   text-shadow: 0 0 .5em #FFFFFF;
 }
 
