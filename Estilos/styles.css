@@ -27,15 +27,6 @@ button {
   cursor: pointer;
 }
 
-/* button::after {
-  content: "";
-  position: absolute;
-  top: 12%;
-  left: -10%;
-  height: 100%;
-  width: 100%;
-} */
-
 button:hover {
   color: #FFFFFF;
   border: .25em solid #FFFFFF;
@@ -47,7 +38,9 @@ button:hover {
 button:active {
   box-shadow: 0 0 0.8em .5em #FFFFFF, 0 0 2.5em 2em #FFFFFF, inset 0 0 1em .25em FFFFFF;
 }
-
+.form> button{
+  margin-top: 10px;
+}
 /*Aca empieza el menu nav*/
 .navBar {
   font-family: "Poiret One";
